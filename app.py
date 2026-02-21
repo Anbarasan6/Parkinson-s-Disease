@@ -148,7 +148,7 @@ def back_button(key="back"):
 # STEP 1 — Clinical Information Form
 # ═══════════════════════════════════════════════════════════════════════════════
 def page_clinical():
-    st.title("🧠 Parkinson's Disease Assessment")
+    st.title("🧠 Parkinson's Disease Detection")
     show_progress()
     st.subheader("Step 1 — Clinical Information")
     st.caption("Complete the patient's clinical profile, then press **Next**.")
@@ -214,7 +214,7 @@ _TARGET = "The quick brown fox jumps over the lazy dog near the riverbank"
 
 
 def page_typing():
-    st.title("🧠 Parkinson's Disease Assessment")
+    st.title("🧠 Parkinson's Disease Detection")
     show_progress()
     st.subheader("Step 2 — Motor Typing Test")
     st.caption("Type the sentence below as naturally as possible.")
